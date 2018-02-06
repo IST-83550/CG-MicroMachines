@@ -1,0 +1,24 @@
+{
+  "name": "micromachines",
+  "version": "1.0.0",
+  "description": "\"Micromachines game made with Three.js library\"",
+  "main": "src/Game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "rollup": "^0.36.4",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-watch": "^2.5.0",
+    "uglify-js": "^2.7.4"
+  },
+  "dependencies": {
+    "orbit-controls-es6": "^1.0.10"
+  }
+}
